@@ -1,0 +1,9 @@
+html {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  border-radius: 8px;
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
