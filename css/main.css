@@ -1,9 +1,46 @@
 html {
   box-sizing: border-box;
-  text-align: center;
-  font-family: 'Dosis', sans-serif;
-  border-radius: 8px;
+  background-color: #f0eee8;
+  display: inline-block;
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Georgia', serif;
+}
+
+.link-card {
+  text-decoration: none;
+  background-color: #512200;
+  margin-left: 1em;
+  font-size: 1.5rem;
+}
+
+header {
+  border-radius: 3px;
+  border-width: 2px;
+  background-color: #9a816d;
+  text-align: center;
+}
+
+dd {
+  margin: 0;
+}
+
+dt {
+  margin-left: 1.5em;
+}
+
+h2 {
+  color: #cabdb2;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
 }
