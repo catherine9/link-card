@@ -8,12 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-li {
-  text-decoration: none;
-  list-style-type: none;
-  font-family: 'Georgia', serif;
-}
-
 .link-card {
   text-decoration: none;
   background-color: #512200;
@@ -24,23 +18,49 @@ li {
 header {
   border-radius: 3px;
   border-width: 2px;
-  background-color: #9a816d;
-  text-align: center;
+  background-color: #cabdb2;
 }
 
-dd {
+.list {
   margin: 0;
+  font-family: Georgia, serif;
+  font-size: 1rem;
 }
 
-dt {
+.list-2 {
   margin-left: 1.5em;
+  font-family: Georgia, serif;
+  font-size: 1rem;
 }
 
-h2 {
-  color: #cabdb2;
-  font-family: 'Dosis', sans-serif;
-  text-decoration: none;
-  list-style-type: none;
+h1 {
+  color: #9a816d;
+  font-family: Dosis, sans-serif;
   line-height: 1.5rem;
   font-size: 1.5rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.link-card:hover {
+  background-color: #785439;
+  border-color: #dcd4cd;
+}
+
+footer {
+  color: #dcd4cd;
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #512200;
+}
+
+body {
+  border-color: #785439;
+  border-radius: 8px;
+  border-width: 2px;
+}
+
+p {
+  margin: 0;
 }
