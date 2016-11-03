@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  text-decoration: none;
-  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -9,20 +7,15 @@ html {
 }
 
 .link-card {
-  text-decoration: none;
   background-color: #dcd4cd;
   margin: 0;
-  border-color: #9a816d, solid 3px;
+  border-color: 3px solid #9a816d;
   display: block;
   color: #512200;
-}
-
-header {
-  text-decoration: none;
-  padding: .4em .75em .5em;
-  margin: 0;
-  font-size: 1.125rem;
-  color: #512200;
+  line-height: 1.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
 }
 
 h1 {
@@ -32,7 +25,7 @@ h1 {
   padding: .4em .75em .5em;
   text-decoration: none;
   font-family: Dosis, serif;
-  color: #cabdb2;
+  color: #512200;
 }
 
 body {
@@ -44,7 +37,6 @@ p {
   font-family: Georgia, serif;
   text-decoration: none;
   list-style-type: none;
-  line-height: 1.5rem;
 }
 
 dd {
@@ -64,6 +56,13 @@ dl {
   padding: 1rem;
   border-top: 3px #9a816d solid;
   border-bottom: 3px #9a816d solid;
+  line-height: 1.5;
+  margin: 0;
+  border-right: none;
+  border-left: none;
+  overflow: hidden;
+  padding-top: 19px;
+  padding-bottom: 19px;
 }
 
 .btn {
@@ -73,12 +72,13 @@ dl {
   color: #fff;
   border-radius: 8px;
   background-color: #785439;
-  padding: .5em;
+  padding: .4em .75em .5em;
   text-decoration: none;
   text-align: center;
   max-width: 7em;
   font-weight: 1.125em;
   font-family: Dosis, serif;
+  list-style-type: none;
 }
 
 .list {
