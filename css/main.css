@@ -68,8 +68,9 @@ dl {
 }
 
 .btn {
+  margin: auto;
   margin-bottom: 1rem;
-  display: inline-block;
+  display: block;
   color: #fff;
   border-radius: 8px;
   background-color: #785439;
