@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  margin: 0;
 }
 
 *, *::before, *::after {
@@ -9,15 +8,13 @@ html {
 
 .link-card {
   background-color: #dcd4cd;
-  margin: 1rem;
+  margin: 0;
   display: block;
   color: #512200;
-  line-height: 1.5rem;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 8px;
   border: 2px solid #9a816d;
-
 }
 
 h2 {
@@ -25,8 +22,6 @@ h2 {
   text-align: center;
   display: inline-block;
   padding: .4em .75em .5em;
-  text-decoration: none;
-  font-family: Dosis, sans-serif;
   color: #512200;
 }
 
