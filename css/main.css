@@ -28,7 +28,6 @@ h2 {
   text-decoration: none;
   font-family: Dosis, sans-serif;
   color: #512200;
-  font-style: bold;
 }
 
 body {
@@ -79,7 +78,6 @@ dl {
   padding: .5em;
   text-decoration: none;
   max-width: 7em;
-  font-style: bold;
   font-family: Dosis, sans-serif;
   list-style-type: none;
 }
