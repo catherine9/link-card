@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -15,6 +16,7 @@ html {
   padding-right: 10px;
   border-radius: 8px;
   border: 2px solid #9a816d;
+  padding-top:
 }
 
 h2 {
@@ -36,6 +38,8 @@ p {
   font-family: Georgia, serif;
   text-decoration: none;
   list-style-type: none;
+  padding: 0;
+  line-height: 1.5;
 }
 
 dd {
@@ -52,10 +56,9 @@ dt {
 }
 
 dl {
-  padding: .4em .75em .5em;
+  padding-top: .4em .75em .5em;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
-  line-height: 1.5;
   margin: 1rem;
   border-right: none;
   border-left: none;
@@ -63,6 +66,7 @@ dl {
   padding-top: 19px;
   padding-bottom: 19px;
   font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .btn {
