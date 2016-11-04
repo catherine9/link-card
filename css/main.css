@@ -16,7 +16,6 @@ html {
   padding-right: 10px;
   border-radius: 8px;
   border: 2px solid #9a816d;
-  padding-top:
 }
 
 h2 {
@@ -39,7 +38,6 @@ p {
   text-decoration: none;
   list-style-type: none;
   padding: 0;
-  line-height: 1.5;
 }
 
 dd {
@@ -56,7 +54,6 @@ dt {
 }
 
 dl {
-  padding-top: .4em .75em .5em;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
   margin: 1rem;
@@ -66,7 +63,6 @@ dl {
   padding-top: 19px;
   padding-bottom: 19px;
   font-size: 1.5rem;
-  line-height: 1.5;
 }
 
 .btn {
