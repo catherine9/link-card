@@ -37,7 +37,6 @@ p {
   font-family: Georgia, serif;
   text-decoration: none;
   list-style-type: none;
-  padding: 0;
 }
 
 dd {
@@ -56,18 +55,19 @@ dt {
 dl {
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
-  margin: 1rem;
+  margin: 0;
   border-right: none;
   border-left: none;
   overflow: hidden;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   font-size: 1.5rem;
 }
 
 .btn {
   margin: auto;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   display: block;
   color: #fff;
   border-radius: 8px;
@@ -99,7 +99,7 @@ dl {
 .link-card h2 {
   text-decoration: none;
   font-size: 1.5rem;
-  padding: .4em .75em .5em;
+  padding: .5em;
   margin: 0;
   font-family: Dosis, sans-serif;
 }
